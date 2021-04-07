@@ -1,7 +1,7 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
 paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
+paginate_path: "/blog/page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
@@ -16,7 +16,7 @@ defaults:
     values:
       title: Chris Heiden
 
-description: Documenting All the Things
+description: Technical Writer
 author:
   name: Chris Heiden
   email: cjheiden227
@@ -24,13 +24,14 @@ author:
   twitter: Chris_in_DEN
   pinterest: 
   linkedin: chris-heiden227
-  bio: Documenting All the Things
+  bio: Writing with Purpose
   email_md5: ed94a733c6d0c7103a94fe60dd710112
 
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
-
+portfolio_path: portfolio.html
+blog_path: blog.html
 # set it as url of an image
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
