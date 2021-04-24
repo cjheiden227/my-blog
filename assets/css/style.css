@@ -2,6 +2,31 @@
 
 body{
 	color: #2c3e50;
+	background-image: url("/assets/media/cubes.png");
+
+}
+
+.center-block{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float:none;
+}
+
+.jumbotron{
+	background:none;
+	/*background: url("/assets/media/bg.jpg");*/
+/*	background-size: cover;
+	background-position: center bottom;*/
+}
+
+.img-circle{
+	-webkit-box-shadow: 0px 0px 4px 1px #2c3e50; 
+	box-shadow: 0px 0px 4px 1px #2c3e50;
+}
+.thumbnail{
+	border: none;
+	background: transparent;
 }
 
 .sidebar {
