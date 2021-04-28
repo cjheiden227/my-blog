@@ -1,7 +1,7 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
 paginate: 10 # pagination based on number of posts
-paginate_path: "/blog/page:num"
+paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
@@ -31,7 +31,7 @@ rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 portfolio_path: portfolio.html
-blog_path: blog/index.html
+#blog_path: blog/index.html
 # set it as url of an image
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
