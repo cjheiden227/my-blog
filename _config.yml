@@ -35,7 +35,7 @@ portfolio_path: portfolio.html
 # set it as url of an image
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
-BASE_PATH: https://cjheiden227.github.io/my-blog/
+BASE_PATH: /my-blog
 
 plugins:
   - jekyll-paginate
