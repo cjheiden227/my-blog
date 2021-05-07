@@ -17,10 +17,10 @@
 	<![endif]-->
 
 	<!-- Le styles -->
-	<link href="{{ site.BASE_PATH }}/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="{{ site.BASE_PATH }}/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<link href="{{ site.BASE_PATH }}/assets/resources/syntax/syntax.css" rel="stylesheet">
-	<link href="{{ site.BASE_PATH }}/assets/css/style.css" rel="stylesheet">
+	<link href="{{ 'assets/resources/bootstrap/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
+	<link href="{{ '/assets/resources/font-awesome/css/font-awesome.min.css' | relative_url}}" rel="stylesheet">
+	<link href="{{ 'assets/resources/syntax/syntax.css' | relative_url}}" rel="stylesheet">
+	<link href="{{ 'assets/css/style.css' | relative_url }}" rel="stylesheet">
 
 	<!-- Le fav and touch icons -->
 	<!-- Update these with your own images
@@ -67,7 +67,7 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>Home</a></li>
+				<li><a href="{{ site.BASE_PATH | relative_url}}/"><i class="fa fa-home"></i>Home</a></li>
 				<li><a href="{{ site.BASE_PATH}}/{{ site.portfolio_path }}"><i class="fa fa-book"></i>Portfolio</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>Categories</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i>Tags</a></li>
@@ -105,8 +105,8 @@
 		</footer>
 	</div>
 
-	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
+	<script type="text/javascript" src="{{ 'assets/resources/jquery/jquery.min.js' | relative_url }}"></script>
+	<script type="text/javascript" src="{{ 'assets/resources/bootstrap/js/bootstrap.min.js' | relative_url }}"></script>
+	<script type="text/javascript" src="{{ 'assets/js/app.js' | relative_url }}"></script>
 </body>
 </html>
