@@ -41,4 +41,3 @@ baseurl: /my-blog
 plugins:
   - jekyll-paginate
 
-theme: jekyll-theme-cayman
