@@ -1,11 +1,10 @@
 ---
 ---
-
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
 	color: #2c3e50;
-	background-image: url("/my-blog/asssets/media/cubes.png");
+	background-image: url("{{'/assets/media/cubes.png' | relative_url}}");
 
 }
 
