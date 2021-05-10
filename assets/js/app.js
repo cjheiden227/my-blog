@@ -17,14 +17,17 @@
     /**
      * Tags & categories tab activation based on hash value. If hash is undefined then first tab is activated.
      */
+     //alert(['/my-blog/tags.html', '/categories.html'].indexOf(window.location.pathname));
     function activateTab() {
-      if(['/tags.html', '/categories.html'].indexOf(window.location.pathname) > -1) {
+      if(['/my-blog/tags.html', '/my-blog/categories.html'].indexOf(window.location.pathname) > -1) {
         var hash = window.location.hash;
+
         if(hash)
           $('.tab-pane').length && $('a[href="' + hash + '"]').tab('show');
         else
           $('.tab-pane').length && $($('.cat-tag-menu li a')[0]).tab('show');
       }
+
     }
 
     // watch hash change and activate relevant tab
@@ -32,6 +35,7 @@
 
     // initial activation
     activateTab();
+
   };
 
   // run init on document ready
