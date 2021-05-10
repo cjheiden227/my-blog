@@ -19,9 +19,11 @@ body{
 }
 
 .jumbotron{
-	background-color: #e74c3c;
+	background-color: rgba(231, 76, 60, 0.85);
 	color: #fff;
+	text-shadow: 1px 1px #2c3e50;
 }
+
 
 .img-circle{
 	-webkit-box-shadow: 1px 1px 1px 1px #2c3e50; 
