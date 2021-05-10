@@ -26,8 +26,8 @@ body{
 
 
 .img-circle{
-	-webkit-box-shadow: 1px 1px 1px 1px #2c3e50; 
-	box-shadow: 1px 1px 1px 1px #2c3e50;
+	-webkit-box-shadow: 1px 1px 0px 0px #2c3e50; 
+	box-shadow: 1px 1px 0px 0px #2c3e50;
 
 }
 
