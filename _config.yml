@@ -7,24 +7,23 @@ highlighter: rouge
 markdown: kramdown
 disqus: cjheiden227
 google_analytics: cjheiden227
-title: Chris Heiden
+title: cjheiden.com
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: Chris Heiden
-
+      title: cjheiden.com
 description: Technical Writer
 author:
-  name: Chris Heiden
+  name: cjheiden.com
   email: cjheiden227
   github: cjheiden227
   twitter: Chris_in_DEN
   pinterest: 
   linkedin: chris-heiden227
-  bio: Clear, Concise, Coherent
+  bio: Building Bridges Between People and Technology
   email_md5: ed94a733c6d0c7103a94fe60dd710112
 
 rss_path: feed.xml
